@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ *
+ * @param {*} winRate - Winner rating
+ * @param {*} opponRate - Opponent rating
+ * @returns - Checked input data. If data correct - return source winrate & opponent rate, else return error message.
+ */
+
 function inputRate(winRate, opponRate) {
   let inputData;
 
@@ -45,6 +52,13 @@ function inputRate(winRate, opponRate) {
   }
   return inputData;
 }
+
+/**
+ * 
+ * @param {*} winRate - Checked input winner\`s rating.
+ * @param {*} opponRate - Checked input opponents rating.
+ * @returns - Returns calculated new rating.
+ */
 
 function calculateRating(winRate, opponRate) {
   const diffRate = opponRate - winRate;
