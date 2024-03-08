@@ -2,9 +2,9 @@
 
 /**
  *
- * @param {*} winRate - Winner rating
- * @param {*} opponRate - Opponent rating
- * @returns - Checked input data. If data correct - return source winrate & opponent rate, else return error message.
+ * @param {*} winRate Enter winner rating
+ * @param {*} opponRate Enter opponent rating
+ * @returns Checked input data. If data correct - return source winrate & opponent rate, else return error message.
  */
 
 function inputRate(winRate, opponRate) {
