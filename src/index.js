@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ *
+ * @param {number} winRate - winner rating
+ * @param {number} opponRate - opponent rating
+ * @returns {string} - return new calculated rating
+ */
+
 function calculateRating(winRate, opponRate) {
   const diffRate = winRate - opponRate;
   let newRate;
