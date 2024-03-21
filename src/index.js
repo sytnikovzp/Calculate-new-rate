@@ -40,19 +40,19 @@ function calculateRating(winRate, opponRate) {
 }
 
 // Verify function
-const newRate1 = calculateRating(59, 37);
+const newRate1 = calculateRating(41, 40);
 console.log(newRate1);
 console.log('=================================');
 
-const newRate2 = calculateRating(58, 56);
+const newRate2 = calculateRating(43, 40);
 console.log(newRate2);
 console.log('=================================');
 
-const newRate3 = calculateRating(26, 27);
+const newRate3 = calculateRating(52, 30);
 console.log(newRate3);
 console.log('=================================');
 
-const newRate4 = calculateRating(26, 29);
+const newRate4 = calculateRating(29, 40);
 console.log(newRate4);
 console.log('=================================');
 
@@ -60,11 +60,11 @@ const newRate5 = calculateRating(0, 37);
 console.log(newRate5);
 console.log('=================================');
 
-const newRate6 = calculateRating(36, 61);
+const newRate6 = calculateRating(36, 65);
 console.log(newRate6);
 console.log('=================================');
 
-const newRate7 = calculateRating(-36, 51);
+const newRate7 = calculateRating(51, -36);
 console.log(newRate7);
 console.log('=================================');
 
